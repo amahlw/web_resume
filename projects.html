@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Projects</title>
+</head>
+
+<div class="pos-f-t">
+    <div class="collapse dropup" id="navbarToggleExternalContent">
+        <div class="bg-dark p-4">
+            <!-- <h5 class="text-white h4">Collapsed content</h5>
+            <span class="text-muted">Toggleable via the navbar brand.</span> -->
+            <ul style="text-decoration: none;">
+                <li><a href="land.html">Home</a></li>
+                <li><a href="rez.html">Resume</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="index.html">Projects</a></li>
+            </ul>
+        </div>
+    </div>
+    <nav class="navbar navbar-dark bg-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent"
+            aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </nav>
+</div>
+<style>
+    h1 {
+        text-align: center;
+    }
+
+    p {
+        text-align: center;
+        font-family: Geneva;
+        font-size: 1.5pc;
+        color: rgb(39, 103, 160);
+        letter-spacing: .2pc;
+        word-spacing: .2pc;
+    }
+
+    .container {
+        text-align: center;
+        align-items: center;
+    }
+
+
+    * {
+        /* margin: 0;
+        padding: 0; */
+    }
+
+    body {
+        /* display: flex;
+        justify-content: center; */
+        /* width: 100%; */
+        /* min-height: 100vh; */
+        background-color: rgb(87, 163, 147);
+        overflow: hidden;
+    }
+
+    .glowing {
+        position: relative;
+        min-width: 750px;
+        height: 750px;
+        margin: -150px;
+        transform-origin: right;
+        animation: colorChange 5s linear infinite;
+    }
+
+    .glowing:nth-child(even) {
+        transform-origin: left;
+    }
+
+    @keyframes colorChange {
+        0% {
+            filter: hue-rotate(0deg);
+            transform: rotate(0deg);
+        }
+
+        100% {
+            filter: hue-rotate(360deg);
+            transform: rotate(360deg);
+        }
+    }
+
+    .glowing span {
+        position: absolute;
+        top: calc(80px * var(--i));
+        left: calc(80px * var(--i));
+        bottom: calc(80px * var(--i));
+        right: calc(80px * var(--i));
+    }
+
+    .glowing span::before {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: -8px;
+        width: 15px;
+        height: 15px;
+        background: #f00;
+        border-radius: 50%;
+    }
+
+    .glowing span:nth-child(3n + 1):before {
+        background: rgba(134, 255, 0, 1);
+        box-shadow: 0 0 20px rgba(134, 255, 0, 1),
+            0 0 40px rgba(134, 255, 0, 1),
+            0 0 60px rgba(134, 255, 0, 1),
+            0 0 80px rgba(134, 255, 0, 1),
+            0 0 0 8px rgba(134, 255, 0, 1);
+    }
+
+    .glowing span:nth-child(3n + 2):before {
+        background: rgba(255, 214, 0, 1);
+        box-shadow: 0 0 20px rgba(255, 214, 0, 1),
+            0 0 40px rgba(255, 214, 0, 1),
+            0 0 60px rgba(255, 214, 0, 1),
+            0 0 80px rgba(255, 214, 0, 1),
+            0 0 0 8px rgba(255, 214, 0, 1);
+    }
+
+    .glowing span:nth-child(3n + 3):before {
+        background: rgba(0, 226, 225, 1);
+        box-shadow: 0 0 20px rgba(0, 226, 225, 1),
+            0 0 40px rgba(0, 226, 225, 1),
+            0 0 60px rgba(0, 226, 225, 1),
+            0 0 80px rgba(0, 226, 225, 1),
+            0 0 0 8px rgba(0, 226, 225, 1);
+    }
+
+    .glowing span:nth-child(3n + 1) {
+        animation: animate 10s alternate infinite;
+    }
+
+    .glowing span:nth-child(3n + 2) {
+        animation: animate-reverse 8s alternate infinite;
+    }
+
+    .glowing span:nth-child(3n + 3) {
+        animation: animate-reverse 3s alternate infinite;
+    }
+
+    @keyframes animate {
+        0% {
+            transform: rotate(0deg);
+        }
+
+        100% {
+            transform: rotate(780deg);
+        }
+    }
+
+    @keyframes animate-reverse {
+        0% {
+            transform: rotate(780deg);
+        }
+
+        100% {
+            transform: rotate(0deg);
+        }
+    }
+</style>
+
+<body>
+    <div class="container">
+        <img src="images/prob.png" alt="">
+    </div>
+    <h1> About Me </h1>
+    <p>A small island kid who came to America to make a diffrence for not just himself but a whole country. <br> I'm a
+        man
+        who
+
+        was lost
+        but now found is path to to provide and teach others. <br> Currently i'm studing to be a full stack engineer who
+        will
+        in the future be introducing the world to new clean and unique designs.
+    </p>
+
+    <h1> Why Computer Science </h1>
+    <p> It's the future of mankind and possible the only way to save us here on earth. <br> Being an engineer you have
+        the
+        oppurtunity to not just change your life <br> but most importantly your kids and thier peers life for the
+        better. <br>
+        I code to show others who less fortunate there is a way out and my objective is to be a living proof of change.
+        <br> I feel i'm here
+        to
+        insipre and that's just what i want to do and what better way to do so being a computer engineer
+    </p>
+
+    <div class="glowing">
+        <span style="--i:1;"></span>
+        <span style="--i:2;"></span>
+        <span style="--i:3;"></span>
+    </div>
+    <div class="glowing">
+        <span style="--i:1;"></span>
+        <span style="--i:2;"></span>
+        <span style="--i:3;"></span>
+    </div>
+    <div class="glowing">
+        <span style="--i:1;"></span>
+        <span style="--i:2;"></span>
+        <span style="--i:3;"></span>
+    </div>
+
+</body>
+
+</html>

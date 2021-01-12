@@ -51,7 +51,9 @@ body.transbox {
 }
 #rez
 {
-    background:red;
+    background:rgba(119, 111, 36, 0.514);
+    background-image: url("images/prob.png");
+    
 }
 ul
 {
