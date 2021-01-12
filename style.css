@@ -4,15 +4,16 @@ body{
 }
 .jumbotron {
     background-image: url(images/bg1.jpeg);
-    background-repeat: no-repeat;
-    /* background-color:#34737ae5; */
-    border: 100px solid black;
-    
-    opacity: 0.6;
-    /* max-width: 200%; */
-    padding-right: 50%;
-    padding-bottom: 50%;
+background-repeat: no-repeat;
+/* background-color: #34737ae5; */
+/* border: 100px solid black; */
+opacity: 314.6;
+/* max-width: 200%; */
+/* padding-right: 50%; */
+/* padding-bottom: 50%; */
+background-size: contain;
 }
+
 
 body.transbox {
     margin: 30px;
