@@ -28,9 +28,9 @@ body.transbox {
   } */
 
 .head{
-    text-align: center;
+    text-align: right;
     font-style: italic;
-    color: red;
+    color: rgba(118, 192, 170, 0.61);
 }
 
 #headd
