@@ -1,11 +1,17 @@
 body{
-    
+   
     background-color: #000000;
 }
 .jumbotron {
-    background-color:#34737ae5;
-    border: 1px solid black;
+    background-image: url(images/bg1.jpeg);
+    background-repeat: no-repeat;
+    /* background-color:#34737ae5; */
+    border: 100px solid black;
+    
     opacity: 0.6;
+    /* max-width: 200%; */
+    padding-right: 50%;
+    padding-bottom: 50%;
 }
 
 body.transbox {
@@ -14,16 +20,46 @@ body.transbox {
     opacity: 0.6;
   }
   
-.head.transbox p {
+/* .head.transbox p {
     margin: 5%;
     font-weight: bold;
     color: #000000;
-  }
+  } */
 
 .head{
     text-align: center;
     font-style: italic;
     color: red;
+}
+
+#headd
+{
+    /* background-image: url("images/bg1.jpeg"); */
+    offset-anchor: 10px;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 10%;
+    margin-top: 50%;
+    max-width: 100%;
+    padding-left: 5%;
+    font-family: 'Courier New', Courier, monospace;
+    color: red;
+    /* background-attachment: fluid; */
+
+}
+#rez
+{
+    background:red;
+}
+ul
+{
+    list-style: none;
+}
+
+button
+{
+    margin: 15px;
 }
 
 *
